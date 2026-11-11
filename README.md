@@ -77,40 +77,11 @@ If you have a [Kappa4420USB](https://inacks.com/kappa4420usb), you don't need th
 5. The program lists your serial ports, listens on all of them at once for a moment and marks the one where it hears the module. Press Enter to take the suggested port, or type another port's number or name.
 6. Press Ctrl+C to stop.
 
-The program starts like this:
+The program starts like this, here with the module on `COM24`:
 
-```
-==============================================================
+![IS4420PY detecting the IS4420-M1 on COM24 and showing the live reading](ISXMPL4420ex5.png)
 
-    ___ _   _    _    ____ _  ______
-   |_ _| \ | |  / \  / ___| |/ / ___|
-    | ||  \| | / _ \| |   | ' /\___ \
-    | || |\  |/ ___ \ |___| . \ ___) |
-   |___|_| \_/_/   \_\____|_|\_\____/
-
-   IS4420PY - IS4420-M1 console monitor
-
-   Website:        https://inacks.com
-   IS4420-M1:      https://inacks.com/is4420
-   Kappa4420USB:   https://inacks.com/kappa4420usb
-
-==============================================================
-
-Listening on the COM ports for an IS4420 line...
-
-   1  COM4
-   2  COM5   <-- IS4420 detected!
-   3  COM6
-
-IS4420M1 ver0 detected on COM5.
-Port [Enter = COM5, number or name, R = scan again, Q = quit]:
-
-Connected to COM5, 115200 baud 8N1. Ctrl+C to quit.
-
-  12.00 mA     50.0 %    26 C    9.7 reads/s (Total reads: 128)
-```
-
-The last line is rewritten in place about every 100 ms, so it works like a live display. The port names depend on your system: `COM5` on Windows, `/dev/ttyUSB0` on Linux.
+The last line is rewritten in place about every 100 ms, so it works like a live display. The port names depend on your system: `COM24` on Windows, `/dev/ttyUSB0` on Linux.
 
 The percentage is the position of the current in the 4-20 mA span:
 
