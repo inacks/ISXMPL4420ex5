@@ -1,5 +1,6 @@
 # ISXMPL4420ex5 - Python UART Current Loop Receiver Using the IS4420 Module
 # https://inacks.com/is4420
+# Datasheet: https://inacks.com/wp-content/uploads/IS4420-M1-Datasheet-I2C-4-20mA-Current-Loop-Receiver-ISDOC146.pdf
 #
 # Wiring (IS4420-M1 pad -> USB-UART adapter):
 #     3V3 -> 3.3 V output of the adapter
@@ -23,6 +24,7 @@ port and shows the loop current in mA, in % of the 4-20 mA span and the
 module temperature, on one console line that updates about every 0.1 s.
 
     IS4420-M1 module:  https://inacks.com/is4420
+    Datasheet:         https://inacks.com/wp-content/uploads/IS4420-M1-Datasheet-I2C-4-20mA-Current-Loop-Receiver-ISDOC146.pdf
     Kappa4420USB:      https://inacks.com/kappa4420usb
 
 The module's TX pin goes to the RX of a USB-UART adapter and needs a pull-up

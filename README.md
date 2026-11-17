@@ -167,6 +167,7 @@ The reads per second are the valid lines received per second, measured over the 
 ## Get the IS4420-M1
 
 - 🛒 **[Buy the IS4420-M1](https://inacks.com/product/4-20ma-receiver-is4420-m1/)**: I2C/UART 4-20 mA Current Loop Receiver Module
+- 📄 [IS4420-M1 datasheet (ISDOC146)](https://inacks.com/wp-content/uploads/IS4420-M1-Datasheet-I2C-4-20mA-Current-Loop-Receiver-ISDOC146.pdf): electrical specification, pad description, UART line format, I2C memory map and hardware examples
 - 🛒 **[Kappa4420USB](https://inacks.com/kappa4420usb)**: isolated USB current loop receiver board built around the IS4420-M1
 
 ℹ️ For more information: [www.inacks.com](https://www.inacks.com)
