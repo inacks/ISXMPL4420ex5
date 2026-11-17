@@ -144,7 +144,7 @@ The reads per second are the valid lines received per second, measured over the 
 - **Bluetooth ports:** they are listed but not opened, because opening one can block for many seconds.
 - **Port names:** the messages say COM ports because that's what Windows calls them. On Linux, you may need to add your user to the `dialout` group (`sudo usermod -aG dialout $USER`) and log in again to open `/dev/ttyUSB0`.
 - **Temperature:** it's the temperature inside the module, which can be above the ambient temperature.
-- **Protection:** CIN has no protection. Never connect the loop power supply straight to CIN, and never reverse the loop: both destroy the module.
+- **Protection:** CIN has no protection. Never connect the loop power supply straight to CIN, and never reverse the loop: either may permanently damage the module.
 
 ---
 
